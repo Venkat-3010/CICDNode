@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/test', (req, res) => {
+app.get('/health', (req, res) => {
     res.json({
         message: 'Test endpoint is working!',
         version: '1.0.0',
