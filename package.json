@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Venkat-3010/CICDNode#readme",
   "description": "",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.2.1"
   },
   "devDependencies": {
