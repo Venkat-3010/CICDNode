@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get('/health', (req, res) => {
     res.json({
-        message: 'Test endpoint is working!',
+        message: 'Test endpoint is started!',
         version: '1.0.0',
         success: true
     });
